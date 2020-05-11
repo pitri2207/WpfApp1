@@ -1,0 +1,19 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.WindowsDesktop">
+
+  <PropertyGroup>
+    <OutputType>WinExe</OutputType>
+    <TargetFramework>netcoreapp3.1</TargetFramework>
+    <UseWPF>true</UseWPF>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="DotSpatial.Data" Version="1.9.0" />
+    <PackageReference Include="DotSpatial.Data.Forms" Version="1.9.0" />
+    <PackageReference Include="DotSpatial.Projections" Version="1.9.0" />
+    <PackageReference Include="SharpMap" Version="1.1.0" />
+    <PackageReference Include="SharpMap.Extensions" Version="1.1.0" />
+    <PackageReference Include="SharpMap.UI" Version="1.1.0" />
+    <PackageReference Include="ThinkGeo.Gdal" Version="12.2.7" />
+  </ItemGroup>
+
+</Project>
